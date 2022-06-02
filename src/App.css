@@ -1,0 +1,44 @@
+.main-layout {
+  min-height: 100vh;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+
+.assets-outer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  justify-content: space-between;
+}
+
+.assets-outer .ant-card {
+  margin: 1rem;
+  width: 240px;
+}
+
+.assets-outer__dummy {
+  width: 240px;
+}
+
+.main-layout__header {
+  display: flex;
+}
+
+.main-layout__header .ant-menu {
+  flex: 1;
+}
+
+.main-layout__header-auth {
+  display: flex;
+  align-items: center;
+}
+
+.main-layout__header-auth-tx {
+  color: #fff;
+  font-size: .8rem;
+}
